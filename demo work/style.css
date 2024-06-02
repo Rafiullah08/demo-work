@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.logo{
+    font-family: "Teko", sans-serif;
+    color: #95Df00;
+    font-weight: 600;
+}
+
+
+.homeNave{
+    height: 70px;
+    position: fixed
+}
+
+
+.singup-form{
+   margin: auto;
+   margin-top: 6pc;
+   width: 550px;
+   height: 600px;
+   box-shadow: 0 5px 6px -5px;
+   padding: 20px;
+}
+
+.singup-form h2{
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif;
+}
