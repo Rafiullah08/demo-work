@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo"><a href="#">Our Company</a></h1>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Logout</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="services-container">
+            <div class="service" onclick="openOrderForm('Logo Design')">
+                <h2>Logo Design</h2>
+                <p>We design stunning logos for your brand.</p>
+            </div>
+            <div class="service" onclick="openOrderForm('Typing')">
+                <h2>Typing</h2>
+                <p>We offer fast and accurate typing services.</p>
+            </div>
+            <div class="service" onclick="openOrderForm('Data Entry')">
+                <h2>Data Entry</h2>
+                <p>We handle your data entry tasks efficiently.</p>
+            </div>
+            <div class="service" onclick="openOrderForm('Video Editing')">
+                <h2>Video Editing</h2>
+                <p>We create professional videos with editing services.</p>
+            </div>
+            <div class="service" onclick="openOrderForm('Backend Development')">
+                <h2>Backend Development</h2>
+                <p>We develop robust backend systems for your applications.</p>
+            </div>
+            <div class="service" onclick="openOrderForm('Frontend Development')">
+                <h2>Frontend Development</h2>
+                <p>We build intuitive and user-friendly frontend interfaces.</p>
+            </div>
+            <div class="service" onclick="openOrderForm('Frontend Development')">
+              <h2>Frontend Development</h2>
+              <p>We build intuitive and user-friendly frontend interfaces.</p>
+          </div>
+          <div class="service" onclick="openOrderForm('Frontend Development')">
+            <h2>Frontend Development</h2>
+            <p>We build intuitive and user-friendly frontend interfaces.</p>
+        </div>
+        <div class="service" onclick="openOrderForm('Frontend Development')">
+          <h2>Mobile Development</h2>
+          <p>We build intuitive and user-friendly frontend interfaces.</p>
+      </div>
+      <div class="service" onclick="openOrderForm('Frontend Development')">
+        <h2>Frontend Development</h2>
+        <p>We build intuitive and user-friendly frontend interfaces.</p>
+    </div>
+    <div class="service" onclick="openOrderForm('Frontend Development')">
+      <h2>Web Development</h2>
+      <p>We build intuitive and user-friendly frontend interfaces.</p>
+  </div>
+  <div class="service" onclick="openOrderForm('Frontend Development')">
+    <h2>Graphic Designing</h2>
+    <p>We build intuitive and user-friendly frontend interfaces.</p>
+</div>
+            <!-- Add more services as needed -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
+    <div id="order-form-popup" class="order-form-popup">
+        <div class="order-form-container">
+            <h2>Order Form</h2>
+            <span class="close" onclick="closeOrderForm()">&times;</span>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
